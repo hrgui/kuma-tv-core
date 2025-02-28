@@ -1,6 +1,5 @@
 import type { Preview } from "@storybook/react";
 import { init as setupSpatialNavigation } from "@hrgui/spatial-navigation-core";
-import { withRouter } from "storybook-addon-remix-react-router";
 import "@hrgui/kuma-tv-core-app/index.css";
 
 setupSpatialNavigation({
@@ -10,7 +9,6 @@ setupSpatialNavigation({
 });
 
 const preview: Preview = {
-  decorators: [withRouter],
   parameters: {
     layout: "fullscreen",
     options: {

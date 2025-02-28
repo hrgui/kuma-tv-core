@@ -62,7 +62,6 @@
     "postcss": "^8.4.47",
     "scroll-polyfill": "^1.0.1",
     "storybook": "^8.3.6",
-    "storybook-addon-remix-react-router": "^3.0.1",
     "tailwind-merge": "^2.5.3",
     "tailwindcss": "^3.4.13",
     "terser": "^5.33.0",
