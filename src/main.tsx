@@ -1,3 +1,3 @@
-import { bootstrap } from "@hrgui/neko-terebi-app";
+import { bootstrap } from "@hrgui/kuma-tv-core-app";
 
 bootstrap(document.getElementById("root")!);

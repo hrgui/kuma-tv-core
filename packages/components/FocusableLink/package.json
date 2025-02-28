@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-react-comp-focusable-link",
+  "name": "@hrgui/kuma-tv-core-react-comp-focusable-link",
   "version": "0.0.0",
   "type": "module",
   "main": "./FocusableLink.tsx",

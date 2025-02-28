@@ -3,7 +3,7 @@ import { FocusableLink } from "../FocusableLink/FocusableLink";
 import { useFocusable, FocusContext } from "@hrgui/react-spatial-navigation";
 import { getPreviousFocusKey, setFocus } from "@hrgui/spatial-navigation-core";
 import { twMerge } from "tailwind-merge";
-import { Session } from "@hrgui/neko-terebi-api-eda-client/types";
+import { Session } from "@hrgui/kuma-tv-core-api-eda-client/types";
 
 const GlobalNav = ({ sessionData }: { sessionData?: Session }) => {
   const [lastFocusedKeyBeforeMenu, setLastFocusedKeyBeforeMenu] = useState<string | null>(null);

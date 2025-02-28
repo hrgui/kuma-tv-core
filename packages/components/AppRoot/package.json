@@ -1,10 +1,10 @@
 {
-  "name": "@hrgui/neko-terebi-react-component-app-root",
+  "name": "@hrgui/kuma-tv-core-react-component-app-root",
   "version": "0.0.0",
   "type": "module",
   "main": "./AppRoot.tsx",
   "peerDependencies": {
-    "@hrgui/neko-terebi-react-component-app-layout": "*",
-    "@hrgui/neko-terebi-react-component-loading": "*"
+    "@hrgui/kuma-tv-core-react-component-app-layout": "*",
+    "@hrgui/kuma-tv-core-react-component-loading": "*"
   }
 }

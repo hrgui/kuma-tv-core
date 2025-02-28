@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-react-component-collection",
+  "name": "@hrgui/kuma-tv-core-react-component-collection",
   "version": "0.0.0",
   "type": "module",
   "main": "./Collection.tsx",

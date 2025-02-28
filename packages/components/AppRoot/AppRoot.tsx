@@ -1,9 +1,9 @@
-//import LoadingOverlay from "@hrgui/neko-terebi-react-component-loading";
-import AppLayout from "@hrgui/neko-terebi-react-component-app-layout";
+//import LoadingOverlay from "@hrgui/kuma-tv-core-react-component-loading";
+import AppLayout from "@hrgui/kuma-tv-core-react-component-app-layout";
 import { FocusContext, useFocusable } from "@hrgui/react-spatial-navigation";
 import { Outlet, useRouterState } from "@tanstack/react-router";
 import LoadingOverlay from "../Loading/LoadingOverlay";
-import { useSessionData } from "@hrgui/neko-terebi-api-hooks/useSessionData";
+import { useSessionData } from "@hrgui/kuma-tv-core-api-hooks/useSessionData";
 
 export function Root() {
   const { isLoading } = useRouterState();

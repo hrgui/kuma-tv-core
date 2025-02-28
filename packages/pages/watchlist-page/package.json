@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-watchlist-page",
+  "name": "@hrgui/kuma-tv-core-watchlist-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./WatchlistPage.tsx"

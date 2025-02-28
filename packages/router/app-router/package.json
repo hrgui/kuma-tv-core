@@ -1,9 +1,9 @@
 {
-  "name": "@hrgui/neko-terebi-app-router",
+  "name": "@hrgui/kuma-tv-core-app-router",
   "version": "0.0.0",
   "type": "module",
   "main": "./createRouterConfig.tsx",
   "dependencies": {
-    "@hrgui/neko-terebi-error-page": "*"
+    "@hrgui/kuma-tv-core-error-page": "*"
   }
 }

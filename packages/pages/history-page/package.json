@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-history-page",
+  "name": "@hrgui/kuma-tv-core-history-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./HistoryPage.tsx"

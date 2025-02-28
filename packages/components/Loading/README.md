@@ -1,4 +1,4 @@
-# @hrgui/neko-terebi-react-component-loading
+# @hrgui/kuma-tv-core-react-component-loading
 
 Loading: Loading Spinner component
 LoadingOverlay: Loading Spinner Overlay component.

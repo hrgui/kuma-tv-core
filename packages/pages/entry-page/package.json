@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-entry-page",
+  "name": "@hrgui/kuma-tv-core-entry-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./EntryPage.tsx"

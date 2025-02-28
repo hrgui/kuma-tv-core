@@ -1,9 +1,9 @@
 {
-  "name": "@hrgui/neko-terebi-app",
+  "name": "@hrgui/kuma-tv-core-app",
   "version": "0.0.0",
   "type": "module",
   "main": "./main.tsx",
   "dependencies": {
-    "@hrgui/neko-terebi-error-page": "*"
+    "@hrgui/kuma-tv-core-error-page": "*"
   }
 }

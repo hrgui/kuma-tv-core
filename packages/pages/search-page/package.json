@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-search-page",
+  "name": "@hrgui/kuma-tv-core-search-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./SearchPage.tsx"

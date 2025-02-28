@@ -1,3 +1,3 @@
-# @hrgui/neko-terebi-react-component-app-layout
+# @hrgui/kuma-tv-core-react-component-app-layout
 
 Contains the application layout

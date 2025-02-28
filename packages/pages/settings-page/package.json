@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-settings-page",
+  "name": "@hrgui/kuma-tv-core-settings-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./SettingsPage.tsx"

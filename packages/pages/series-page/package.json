@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-series-page",
+  "name": "@hrgui/kuma-tv-core-series-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./SeriesPage.tsx"

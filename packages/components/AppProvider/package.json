@@ -1,10 +1,10 @@
 {
-  "name": "@hrgui/neko-terebi-react-component-app-provider",
+  "name": "@hrgui/kuma-tv-core-react-component-app-provider",
   "version": "0.0.0",
   "type": "module",
   "main": "./AppProvider.tsx",
   "peerDependencies": {
-    "@hrgui/neko-terebi-query-client": "*",
+    "@hrgui/kuma-tv-core-query-client": "*",
     "@tanstack/react-query": "*"
   }
 }

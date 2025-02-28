@@ -1,8 +1,8 @@
 import React, { forwardRef } from "react";
-import CenterContent from "@hrgui/neko-terebi-react-component-center-content";
-import MainContainer from "@hrgui/neko-terebi-react-component-main-container";
-import GlobalNav from "@hrgui/neko-terebi-react-comp-global-nav";
-import { Session } from "@hrgui/neko-terebi-api-eda-client/types";
+import CenterContent from "@hrgui/kuma-tv-core-react-component-center-content";
+import MainContainer from "@hrgui/kuma-tv-core-react-component-main-container";
+import GlobalNav from "@hrgui/kuma-tv-core-react-comp-global-nav";
+import { Session } from "@hrgui/kuma-tv-core-api-eda-client/types";
 
 type Props = {
   children?: React.ReactNode;

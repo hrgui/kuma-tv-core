@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-react-component-grid",
+  "name": "@hrgui/kuma-tv-core-react-component-grid",
   "version": "0.0.0",
   "type": "module",
   "main": "./Grid.tsx",

@@ -1,9 +1,9 @@
 {
-  "name": "@hrgui/neko-terebi-react-comp-global-nav",
+  "name": "@hrgui/kuma-tv-core-react-comp-global-nav",
   "version": "0.0.0",
   "type": "module",
   "main": "./GlobalNav.tsx",
   "peerDependencies": {
-    "@hrgui/neko-terebi-react-comp-focusable-link": "*"
+    "@hrgui/kuma-tv-core-react-comp-focusable-link": "*"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-video-player-page",
+  "name": "@hrgui/kuma-tv-core-video-player-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./VideoPlayerPage.tsx"

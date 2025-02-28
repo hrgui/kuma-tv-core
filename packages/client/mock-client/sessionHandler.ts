@@ -1,4 +1,4 @@
-import { Session } from "@hrgui/neko-terebi-api-eda-client/types";
+import { Session } from "@hrgui/kuma-tv-core-api-eda-client/types";
 
 export const premiumSession: Session = {
   accountId: "1",

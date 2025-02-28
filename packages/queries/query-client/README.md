@@ -1,3 +1,3 @@
-# @hrgui/neko-terebi-query-client
+# @hrgui/kuma-tv-core-query-client
 
 Contains the query client singleton for @tanstack/react-query

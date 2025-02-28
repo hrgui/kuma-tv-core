@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-login-page",
+  "name": "@hrgui/kuma-tv-core-login-page",
   "version": "0.0.0",
   "type": "module",
   "main": "./LoginPage.tsx"

@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-mock-eda-client",
+  "name": "@hrgui/kuma-tv-core-mock-eda-client",
   "version": "0.0.0",
   "type": "module",
   "main": "./index.ts"

@@ -1,19 +1,19 @@
-import VideoPlayerPage from "@hrgui/neko-terebi-video-player-page";
-import BrowsePage from "@hrgui/neko-terebi-browse-page";
-import SeriesPage from "@hrgui/neko-terebi-series-page";
-import SearchPage from "@hrgui/neko-terebi-search-page";
-import HistoryPage from "@hrgui/neko-terebi-history-page";
-import { Root } from "@hrgui/neko-terebi-react-component-app-root";
-import ErrorPage from "@hrgui/neko-terebi-error-page";
-import EntryPage from "@hrgui/neko-terebi-entry-page";
-import LoginPage from "@hrgui/neko-terebi-login-page";
-import SettingsPage from "@hrgui/neko-terebi-settings-page";
-import WatchlistPage from "@hrgui/neko-terebi-watchlist-page";
-import HomePage from "@hrgui/neko-terebi-home-page";
+import VideoPlayerPage from "@hrgui/kuma-tv-core-video-player-page";
+import BrowsePage from "@hrgui/kuma-tv-core-browse-page";
+import SeriesPage from "@hrgui/kuma-tv-core-series-page";
+import SearchPage from "@hrgui/kuma-tv-core-search-page";
+import HistoryPage from "@hrgui/kuma-tv-core-history-page";
+import { Root } from "@hrgui/kuma-tv-core-react-component-app-root";
+import ErrorPage from "@hrgui/kuma-tv-core-error-page";
+import EntryPage from "@hrgui/kuma-tv-core-entry-page";
+import LoginPage from "@hrgui/kuma-tv-core-login-page";
+import SettingsPage from "@hrgui/kuma-tv-core-settings-page";
+import WatchlistPage from "@hrgui/kuma-tv-core-watchlist-page";
+import HomePage from "@hrgui/kuma-tv-core-home-page";
 
 import { createRootRouteWithContext, createRoute, redirect } from "@tanstack/react-router";
-import { fetchAsEventsToPromise } from "@hrgui/neko-terebi-api-eda-client/fetchAsEventsToPromise";
-import { Session } from "@hrgui/neko-terebi-api-eda-client/types";
+import { fetchAsEventsToPromise } from "@hrgui/kuma-tv-core-api-eda-client/fetchAsEventsToPromise";
+import { Session } from "@hrgui/kuma-tv-core-api-eda-client/types";
 import { QueryClient } from "@tanstack/react-query";
 
 export type RouterAuth = {

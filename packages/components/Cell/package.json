@@ -1,5 +1,5 @@
 {
-  "name": "@hrgui/neko-terebi-react-component-cell",
+  "name": "@hrgui/kuma-tv-core-react-component-cell",
   "version": "0.0.0",
   "type": "module",
   "main": "./Cell.tsx",

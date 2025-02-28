@@ -77,7 +77,7 @@ const BrowseGrid = () => {
                 to="/"
                 focusKey={`${index}-0`}
                 imageUrl={`https://placehold.co/528x297/${col1Color}`}
-                header1={`NEKO THE ROCK!` + index + "-" + 0}
+                header1={`KUMA THE ROCK!` + index + "-" + 0}
                 header2="Sub | Dub"
                 header3="14+"
                 className="@asvw:mr-[26px]"
@@ -90,7 +90,7 @@ const BrowseGrid = () => {
                 to="/"
                 focusKey={`${index}-1`}
                 imageUrl={`https://placehold.co/528x297/${col2Color}`}
-                header1={`NEKO THE ROCK!` + index + "-" + 1}
+                header1={`KUMA THE ROCK!` + index + "-" + 1}
                 header2="Sub | Dub"
                 header3="14+"
                 className="@asvw:mr-[26px]"
@@ -103,7 +103,7 @@ const BrowseGrid = () => {
                 to="/"
                 focusKey={`${index}-2`}
                 imageUrl={`https://placehold.co/528x297/${col3Color}`}
-                header1={`NEKO THE ROCK!` + index + "-" + 2}
+                header1={`KUMA THE ROCK!` + index + "-" + 2}
                 header2="Sub | Dub"
                 header3="14+"
                 className="@asvw:mr-[26px]"
