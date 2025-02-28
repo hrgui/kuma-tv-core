@@ -16,8 +16,8 @@ import "./index.css";
 import { init as setupSpatialNavigation } from "@hrgui/spatial-navigation-core";
 import { RouterProvider } from "@tanstack/react-router";
 import App from "./App.tsx";
-import { createAppRouter } from "@hrgui/kuma-tv-core-app-router/createRouter";
-import { auth } from "@hrgui/kuma-tv-core-app-router/createRouteTree";
+import { createAppRouter } from "@hrgui/kuma-tv-test-app-router/createRouter";
+import { auth } from "@hrgui/kuma-tv-test-app-router/createRouteTree";
 import { queryClient } from "@hrgui/kuma-tv-core-query-client";
 
 export function bootstrap(el: Container) {

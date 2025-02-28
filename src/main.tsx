@@ -1,3 +1,3 @@
-import { bootstrap } from "@hrgui/kuma-tv-core-app";
+import { bootstrap } from "@hrgui/kuma-tv-test-app";
 
 bootstrap(document.getElementById("root")!);

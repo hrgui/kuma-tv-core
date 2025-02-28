@@ -1,6 +1,6 @@
 import type { Preview } from "@storybook/react";
 import { init as setupSpatialNavigation } from "@hrgui/spatial-navigation-core";
-import "@hrgui/kuma-tv-core-app/index.css";
+import "@hrgui/kuma-tv-test-app/index.css";
 
 setupSpatialNavigation({
   debug: true,
