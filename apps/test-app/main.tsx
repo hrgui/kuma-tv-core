@@ -16,8 +16,8 @@ import App from "./App.tsx";
 export function bootstrap(el: Container) {
   setupApiEdaClient(eventBus);
   setupSpatialNavigation({
-    debug: import.meta.env.VITE_TEREBI_SPATIAL_NAV_DEBUG === "1",
-    visualDebug: import.meta.env.VITE_TEREBI_SPATIAL_NAV_VISUAL_DEBUG === "1",
+    debug: import.meta.env.VITE_KUMA_SPATIAL_NAV_DEBUG === "1",
+    visualDebug: import.meta.env.VITE_KUMA_SPATIAL_NAV_VISUAL_DEBUG === "1",
     useGetBoundingClientRect: true,
   });
   const router = createAppRouter({ auth, queryClient });
