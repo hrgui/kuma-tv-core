@@ -876,15 +876,6 @@ export class SpatialNavigationService {
   }
 
   onDidNotNavigate(component: FocusableComponent, props: any) {
-    /*
-    this.onDidNotNavigate(currentComponent, {
-        direction,
-        fromParentFocusKey,
-        focusDetails,
-        result,
-      });
-      */
-
     this.log("onDidNotNavigate", "component", component.node);
     props = { ...props, previousFocusKey: this.previousFocusKey };
 
@@ -1519,6 +1510,10 @@ export class SpatialNavigationService {
         this.getNodeLayoutByFocusKey(this.focusKey) as FocusableComponentLayout,
         focusDetails
       );
+
+      this.eventEmitter.emit("sn/onFocus", {
+        newComponent,
+      });
 
       this.log("setCurrentFocusedKey", "onFocus", newComponent);
     }

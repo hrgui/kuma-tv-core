@@ -20,6 +20,14 @@ export function bootstrap(el: Container) {
     visualDebug: import.meta.env.VITE_KUMA_SPATIAL_NAV_VISUAL_DEBUG === "1",
     useGetBoundingClientRect: true,
   });
+  window.addEventListener("sn/onFocus", (e) => {
+    console.log("Event - Spatial Navigation Focused Element:", (e as CustomEvent).detail);
+  });
+
+  window.addEventListener("sn/onDidNotNavigate", (e) => {
+    console.log("Event - Spatial Navigation Did Not Navigate:", (e as CustomEvent).detail);
+  });
+
   const router = createAppRouter({ auth, queryClient });
   createRoot(el).render(
     <StrictMode>
