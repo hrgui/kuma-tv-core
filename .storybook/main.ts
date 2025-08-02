@@ -1,5 +1,6 @@
 import { dirname, join } from "path";
 import type { StorybookConfig } from "@storybook/react-vite";
+process.env.STORYBOOK = "1";
 
 const config: StorybookConfig = {
   stories: [
