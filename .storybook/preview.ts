@@ -1,4 +1,4 @@
-import type { Preview } from "@storybook/react";
+import type { Preview } from "@storybook/react-vite";
 import { init as setupSpatialNavigation } from "@hrgui/spatial-navigation-core";
 import "@hrgui/kuma-tv-test-app/index.css";
 

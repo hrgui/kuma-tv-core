@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from "@storybook/react";
+import type { StoryObj, Meta } from "@storybook/react-vite";
 import Cell from "./Cell";
 const meta: Meta<typeof Cell> = { title: "Cell", component: Cell };
 

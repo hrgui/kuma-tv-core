@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from "@storybook/react";
+import type { StoryObj, Meta } from "@storybook/react-vite";
 import Grid from "./Grid";
 import FocusableLinkCell from "../Cell/FocusableLinkCell";
 import { useEffect } from "react";
