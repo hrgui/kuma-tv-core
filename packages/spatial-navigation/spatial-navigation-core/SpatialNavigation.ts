@@ -626,6 +626,7 @@ export class SpatialNavigationService {
     this.pause = this.pause.bind(this);
     this.resume = this.resume.bind(this);
     this.setFocus = this.setFocus.bind(this);
+    this.isFocusableComponent = this.isFocusableComponent.bind(this);
     this.updateAllLayouts = this.updateAllLayouts.bind(this);
     this.navigateByDirection = this.navigateByDirection.bind(this);
     this.init = this.init.bind(this);
@@ -1635,6 +1636,11 @@ export class SpatialNavigationService {
   }
 
   setFocus(focusKey: string, focusDetails: FocusDetails = {}) {
+    if (!this.isFocusableComponent(focusKey)) {
+      this.log("setFocus", "focusKey is not a focusable component", focusKey);
+      return;
+    }
+
     // Cancel any pending auto-restore focus calls if we are setting focus manually
     this.setFocusDebounced.cancel();
 
@@ -1771,5 +1777,6 @@ export const {
   getCurrentFocusKey,
   getPreviousFocusKey,
   doesFocusableExist,
+  isFocusableComponent,
   updateRtl,
 } = SpatialNavigation;
